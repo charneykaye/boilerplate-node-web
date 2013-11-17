@@ -5,8 +5,8 @@
  */
 
 var express = require('express')
-  , routes = require('./routes')
-  , user = require('./routes/user')
+  , routes = require('./app/routes')
+  , user = require('./app/routes/user')
   , http = require('http')
   , path = require('path')
   , port = 8080
@@ -21,7 +21,7 @@ var app = express();
 
 app.configure(function(){
   app.set('port', process.env.PORT || port);
-  app.set('views', __dirname + '/views');
+  app.set('views', __dirname + '/frontend/views');
   app.set('view engine', 'jade');
   app.use(express.favicon());
   app.use(express.logger('dev'));

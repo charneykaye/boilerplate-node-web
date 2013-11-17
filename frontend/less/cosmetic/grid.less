@@ -1,0 +1,41 @@
+#opp-grid, #content-grid {
+  padding-top: 0;
+  margin-top: -8px;
+  margin-left:10px;
+  margin-right:10px;
+  &.grid-view table.items {
+    th {
+      background-image: none;
+      background-color: @grid-header-background-color;
+      a {
+        color: @grid-header-text-color;
+      }
+    }
+    tr.selected {
+      color: @grid-row-selected-text-color;
+      background: @grid-row-selected-background-color;
+    }
+    tr {
+      cursor: pointer;
+    }
+  }
+}
+
+
+.grid-view {
+  vertical-align: top;
+  table.items {
+    img.autosize {
+      width:100%;
+      height:auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    tr {
+      td{
+        vertical-align: top;
+
+      }
+    }
+  }
+}
