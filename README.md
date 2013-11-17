@@ -1,4 +1,4 @@
 outrightmental-web
 ==================
 
-The Outright Mental Central Web Application
+The Outright Mental Web Application
