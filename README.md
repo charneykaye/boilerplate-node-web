@@ -1,7 +1,7 @@
 The Outright Mental Web Application
 ===================================
 
-https://www.codeship.io/projects/4d142b50-3183-0131-d72e-0ab595d4f030/status
+![Codefish Status](https://www.codeship.io/projects/4d142b50-3183-0131-d72e-0ab595d4f030/status)
 
 # Node Apps
 ## Express boilerplate

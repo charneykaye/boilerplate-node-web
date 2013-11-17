@@ -1,13 +1,62 @@
 {
-  "name": "nodeapps-express",
-  "author": "Nodejitsu Inc. <support@nodejitsu.com>",
-  "version": "0.1.3",
-  "scripts": {
-    "start": "node app.js"
-  },
-  "dependencies": {
-    "express": "3.0.x",
-    "jade": "*"
-  },
-  "analyze": false
+    "name": "outrightmental-web",
+    "version": "0.0.1",
+
+    "title": "The Outright Mental Web Application",
+    "authors": [
+        {
+            "name": "Nick Kaye",
+            "email": "nick@outrightmental.com"
+        }   ,
+        {
+            "name": "Pete Van Dyke",
+            "email": "pete@outrightmental.com"
+        }
+    ],
+    "description": "Node.js Web Service & HTML5 Frontend",
+    "homepage": "https://github.com/outrightmental/outrightmental-web",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/outrightmental/outrightmental-web"
+    },
+    "bugs": {
+        "url": "https://github.com/outrightmental/outrightmental-web/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/outrightmental/outrightmental-web/blob/master/LICENSE"
+        }
+    ],
+    "private": true,
+    "keywords": [
+        "Outright Mental"
+    ],
+
+    "scripts": {
+        "start": "node app.js",
+        "test": "grunt --verbose"
+    },
+    "dependencies": {
+        "express": "3.0.x",
+        "jade": "*"
+    },
+    "devDependencies": {
+        "grunt-cli": "~0.1.9",
+        "grunt": "~0.4.1",
+        "grunt-bower-task": "0.3.2",
+        "grunt-contrib-uglify": "~0.2.4",
+        "grunt-contrib-htmlmin": "~0.1.3",
+        "grunt-contrib-cssmin": "~0.6.1",
+        "grunt-contrib-less": "~0.7.0",
+        "grunt-contrib-copy": "~0.4.1",
+        "grunt-contrib-jshint": "~0.6.4",
+        "grunt-contrib-qunit": "~0.2.2",
+        "grunt-contrib-watch": "~0.5.3"
+    },
+    "analyze": false,
+    "subdomain": "outrightmental-web",
+    "engines": {
+        "node": "0.10.x"
+    }
 }
