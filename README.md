@@ -1,46 +1,31 @@
 The Outright Mental Web Application
 ===================================
 
+Federation
+----------
+[Federation Document on Google Drive](https://docs.google.com/document/d/1XsUguBMxcfvw79Pb978qjPgioRe_m9DcRn4UNMCTPNY/edit)
+
 Node.js Web Service & HTML5 Frontend
 ------------------------------------
 http://app.outrightmental.com/
 
-Codeship Continuous Integration
--------------------------------
+## Codeship Continuous Integration
 ![Codefish Status](https://www.codeship.io/projects/4d142b50-3183-0131-d72e-0ab595d4f030/status)
 
-
-
-# Node Apps
-## Express boilerplate
-
-[http://expressjs.com](http://express.js.com)
-
-![](https://github.com/nodeapps/boilerplates/raw/master/screenshots/express.png)
-
-# Installation
-
-    mkdir myapp
-    cd myapp/
-    jitsu install express
-
-*If you do not have `jitsu` installed you can install it via `npm install jitsu -g`*
-
+## Nodejitsu
+Based on Nodejitsu boilerplate for [Express.js](http://express.js.com).
 
 # Usage
 
-### Starting boilerplate locally
+## Starting app locally
 
     node app.js
 
-*Now you can visit http://localhost:8080 to view your application*
+*Now you can visit http://localhost:8080 to view the application*
 
-### Deploy boilerplate to nodejitsu
+## Deploy boilerplate to nodejitsu
 
     jitsu deploy
-
-*You will now be prompted for a `subdomain` to deploy your application on*
-
 
 # License
 
