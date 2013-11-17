@@ -14,6 +14,7 @@
         }
     ],
     "description": "Node.js Web Service & HTML5 Frontend",
+
     "homepage": "https://github.com/outrightmental/outrightmental-web",
     "repository": {
         "type": "git",
@@ -33,6 +34,9 @@
         "Outright Mental"
     ],
 
+    "domains": [
+        "app.outrightmental.com"
+    ],
     "scripts": {
         "start": "node app.js",
         "test": "grunt --verbose"
