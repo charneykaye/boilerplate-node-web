@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd748a7b-460a-40e3-9718-f41e492da085" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Development\outrightmental\outrightmental-web\express\ReadMe.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Development\outrightmental\outrightmental-web\express\app.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Development\outrightmental\outrightmental-web\express\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Development\outrightmental\outrightmental-web\express\public\stylesheets\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Development\outrightmental\outrightmental-web\express\routes\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Development\outrightmental\outrightmental-web\routes\user.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Development\outrightmental\outrightmental-web\views\index.jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Development\outrightmental\outrightmental-web\views\layout.jade" afterPath="" />
-      <change type="MOVED" beforePath="C:\Development\outrightmental\outrightmental-web\express\routes\user.js" afterPath="$PROJECT_DIR$/app/routes/user.js" />
-      <change type="MOVED" beforePath="C:\Development\outrightmental\outrightmental-web\routes\index.js" afterPath="$PROJECT_DIR$/app/routes/index.js" />
-      <change type="MOVED" beforePath="C:\Development\outrightmental\outrightmental-web\views\index.jade" afterPath="$PROJECT_DIR$/frontend/views/index.jade" />
-      <change type="MOVED" beforePath="C:\Development\outrightmental\outrightmental-web\views\layout.jade" afterPath="$PROJECT_DIR$/frontend/views/layout.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outrightmental-web.iml" afterPath="$PROJECT_DIR$/outrightmental-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-    </list>
+    <list default="true" id="bd748a7b-460a-40e3-9718-f41e492da085" name="Default" comment="" />
     <ignored path="outrightmental-web.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1384717947222" ignored="false" />
@@ -125,7 +109,7 @@
           <file leaf-file-name="build.sh" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/build.sh">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="51" selection-start="107" selection-end="107" vertical-scroll-proportion="0.05414013">
+                <state line="9" column="3" selection-start="173" selection-end="173" vertical-scroll-proportion="0.16242038">
                   <folding />
                 </state>
               </provider>
@@ -382,7 +366,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1576" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -564,7 +548,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="51" selection-start="107" selection-end="107" vertical-scroll-proportion="0.05414013">
+        <state line="9" column="3" selection-start="173" selection-end="173" vertical-scroll-proportion="0.16242038">
           <folding />
         </state>
       </provider>
