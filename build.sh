@@ -6,6 +6,3 @@ BASEPATH=`dirname $0`
 
 #-- Install Node Packages
 npm install
-
-#-- Grunt automated build
-grunt
