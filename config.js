@@ -5,7 +5,7 @@ exports.mongodb = {
   uri: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL ||  'mongodb://nodejitsu:e9b12453b5cb4881cb1a30d4fd946953@paulo.mongohq.com:10041/nodejitsudb939141421'
 };
 exports.companyName = 'Outright Mental Inc.';
-exports.projectName = 'Outright Mental Web Application';
+exports.projectName = 'OutrightMental Web';
 exports.systemEmail = 'hello@outrightmental.com';
 exports.cryptoKey = 'pNGQ8ypFL98agjYdtRD7ABRFQyRhn3NAHv5rSyGMzNuE3wNk2TMChnWWM3cH5sj3';
 exports.smtp = {

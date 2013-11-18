@@ -30,7 +30,7 @@ module.exports = function (grunt) {
              */
             uglify: {
                 options: {
-                    banner: '/* <%= pkg.name %> <%= pkg.version %> (<%= grunt.template.today("yyyy-mm-dd") %>) | Outright Mental Inc. - https://www.outrightmental.com/ */\n'
+                    banner: '/* <%= pkg.name %> <%= pkg.version %> (<%= grunt.template.today("yyyy-mm-dd") %>) | OutrightMental Web - https://app.outrightmental.com/ */\n'
                 },
                 prod: {
                     files: [
