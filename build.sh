@@ -6,3 +6,6 @@ BASEPATH=`dirname $0`
 
 #-- Install Node Packages
 npm install
+
+#-- Install Bower Packages
+bower install

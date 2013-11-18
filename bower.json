@@ -30,8 +30,7 @@
 
     "dependencies": {
         "bootstrap": "latest",
-        "bootstrap-js-dropdown": "latest",
-        "es5-shim": "latest",
+        "html5shiv": "latest",
         "font-awesome": "latest",
         "history.js": "latest",
         "jquery": "latest",
@@ -40,10 +39,10 @@
         "json3": "latest",
         "modernizr": "latest",
         "momentjs": "latest",
-        "requirejs": "~2.1.5",
-        "requirejs-i18n": "~2.0.2",
-        "requirejs-text": "~2.0.5",
-        "underscore-amd": "~1.4.4"
+        "requirejs": "latest",
+        "requirejs-i18n": "latest",
+        "requirejs-text": "latest",
+        "underscore-amd": "latest"
     },
     "devDependencies": {
     }
