@@ -2,7 +2,7 @@
 
 exports.port = process.env.PORT || 3000;
 exports.mongodb = {
-  uri: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'localhost/drywall'
+  uri: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL ||  'mongodb://nodejitsu:e9b12453b5cb4881cb1a30d4fd946953@paulo.mongohq.com:10041/nodejitsudb939141421'
 };
 exports.companyName = 'Outright Mental Inc.';
 exports.projectName = 'Outright Mental Web Application';
@@ -11,11 +11,11 @@ exports.cryptoKey = 'pNGQ8ypFL98agjYdtRD7ABRFQyRhn3NAHv5rSyGMzNuE3wNk2TMChnWWM3c
 exports.smtp = {
   from: {
     name: process.env.SMTP_FROM_NAME || exports.projectName,
-    address: process.env.SMTP_FROM_ADDRESS || 'do-not-reply@outrightmental.com'
+    address: process.env.SMTP_FROM_ADDRESS || 'no-reply@outrightmental.com'
   },
   credentials: {
-    user: process.env.SMTP_USERNAME || 'do-not-reply@outrightmental.com',
-    password: process.env.SMTP_PASSWORD || 'Hv5rSyGMzNuE3wNk',
+    user: process.env.SMTP_USERNAME || 'no-reply@outrightmental.com',
+    password: process.env.SMTP_PASSWORD || '5wTxf8EsNbN3YT4knDs9c7VC',
     host: process.env.SMTP_HOST || 'smtp.gmail.com',
     ssl: true
   }
