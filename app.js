@@ -100,5 +100,6 @@ require('./utilities')(app);
 
 //listen up
 app.server.listen(app.get('port'), function(){
+    console.log('Server alive');
   //and... we're live
 });
