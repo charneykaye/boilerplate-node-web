@@ -134,7 +134,7 @@ var build = function(filePath) {
   //add dependencies for core js
   if (/public\/layouts\/core\.js/.test(filePath)) {
     dependencies = [
-      'public/vendor/jquery/jquery-1.10.2.js',
+      'public/vendor/jquery/jquery.js',
       'public/vendor/underscore/underscore.js',
       'public/vendor/backbone/backbone.js',
       'public/vendor/bootstrap/js/affix.js',
@@ -156,7 +156,7 @@ var build = function(filePath) {
   //add dependencies for ie-sucks js
   if (/public\/layouts\/ie-sucks\.js/.test(filePath)) {
     dependencies = [
-      'public/vendor/html5shiv/html5shiv.js',
+      'public/vendor/html5shiv/dist/html5shiv.js',
       'public/vendor/respond/respond.src.js'
     ];
   }
