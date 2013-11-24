@@ -1,13 +1,20 @@
 'use strict';
 
 //dependencies
-var config = require('./config'),
+var
+    config = require('./config'),
     express = require('express'),
-    mongoStore = require('connect-mongo')(express),
     http = require('http'),
-    path = require('path'),
+    logentries = require('node-logentries'),
+    mongoose = require('mongoose'),
+    mongoStore = require('connect-mongo')(express),
     passport = require('passport'),
-    mongoose = require('mongoose');
+    path = require('path');
+
+// setuyp logentries
+var log = logentries.logger({
+    token:'32c9b690-f0ef-46d1-b6a0-6157bbad8703'
+});
 
 //create express app
 var app = express();
