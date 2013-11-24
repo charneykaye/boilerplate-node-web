@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bd748a7b-460a-40e3-9718-f41e492da085" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utilities.js" afterPath="$PROJECT_DIR$/utilities.js" />
     </list>
     <ignored path="outrightmental-web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,7 +82,7 @@
           <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="52" selection-start="67" selection-end="67" vertical-scroll-proportion="0.07211029">
+                <state line="17" column="7" selection-start="443" selection-end="443" vertical-scroll-proportion="0.30646873">
                   <folding />
                 </state>
               </provider>
@@ -199,8 +198,8 @@
         <option value="$PROJECT_DIR$/views/contact/index.jade" />
         <option value="$PROJECT_DIR$/run.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/utilities.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -587,7 +586,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="52" selection-start="67" selection-end="67" vertical-scroll-proportion="0.07211029">
+        <state line="17" column="7" selection-start="443" selection-end="443" vertical-scroll-proportion="0.30646873">
           <folding />
         </state>
       </provider>
