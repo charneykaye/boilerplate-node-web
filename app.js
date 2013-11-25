@@ -1,9 +1,10 @@
 'use strict';
 
-//dependencies
-var
-    config = require('./config'),
-    express = require('express'),
+// config
+var config = require('./config');
+
+// dependencies
+var express = require('express'),
     http = require('http'),
     logentries = require('node-logentries'),
     mongoose = require('mongoose'),
@@ -14,7 +15,7 @@ var
 // setup logentries
 var
     log = logentries.logger({
-        token: '32c9b690-f0ef-46d1-b6a0-6157bbad8703'
+        token: config.logentries.token
     }),
     logStream = {
         write: function (message, encoding) {

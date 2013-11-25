@@ -34,3 +34,6 @@ exports.oauth = {
     secret: process.env.GITHUB_OAUTH_SECRET || ''
   }
 };
+exports.logentries = {
+    token: process.env.LOGENTRIES_TOKEN || ''
+}
