@@ -22,14 +22,6 @@ var
         }
     };
 
-//Application's configuration
-app.configure(function () {
-    //Your base config methods
-
-
-    //Rest of your configuration.
-});
-
 //create express app
 var app = express();
 
