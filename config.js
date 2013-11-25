@@ -2,7 +2,7 @@
 
 exports.port = process.env.PORT || 8080;
 exports.mongodb = {
-  uri: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL ||  'mongodb://nodejitsu:e9b12453b5cb4881cb1a30d4fd946953@paulo.mongohq.com:10041/nodejitsudb939141421'
+  uri: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL ||  ''
 };
 exports.companyName = 'Outright Mental Inc.';
 exports.projectName = 'OutrightMental Web';
