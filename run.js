@@ -187,7 +187,6 @@ var lintLESS = function(filePath, cb) {
 //a function that compiles less files
 var compileLESS = function(filePath, dependencyPaths) {
   if (!dependencyPaths) { dependencyPaths = []; }
-  console.log('-------------------------------------------------DEPS ' + dependencyPaths);
   var args = ['--compress'];
   args = args.concat(dependencyPaths, filePath);
   

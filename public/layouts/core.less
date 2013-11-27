@@ -1,7 +1,32 @@
 @import "../vendor/bootstrap/less/mixins.less";
 
+@header-height: 50px;
+@logo-padding: 5px;
+@logo-size: @header-height - (@logo-padding * 2);
+@footer-height: 26px;
+@footer-background-color: #ffffff;
+
+#tl_popupCL1 {
+  display:none;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -@footer-height;
+}
+
+.footer, .push {
+  height: @footer-height;
+}
+
 body {
-  padding-top: 50px;
+  padding-top: @header-height;
 }
 
 h1, h2 {
@@ -31,21 +56,30 @@ select, textarea, input, .form-control {
   padding-left: 12px;
 }
 
+
 .navbar {
   .box-shadow(0 2px 5px rgba(0,0,0,.125));
-  
+
+  a {
+    text-decoration: none;
+    background:transparent none;
+  }
   .navbar-brand {
+    padding-left:@logo-padding;
+    padding-top:@logo-padding;
+    padding-right:0;
+    padding-bottom:0;
+    width:auto;
+    .navbar-logo {
+      width: @logo-size;
+      height: @logo-size;
+    }
+
     font-weight: bold;
     color: #003d5f;
     position: relative;
     display: inline-block;
-    
-    .navbar-logo {
-      position: absolute;
-      top: 10px;
-      height: 32px;
-      width: 32px;
-    }
+
   }
   .navbar-brand-label {
     margin-left: 35px;
@@ -53,23 +87,22 @@ select, textarea, input, .form-control {
 }
 
 .footer {
-  margin-top: 50px;
+  margin-top: 0;
   color: #999;
-  
-  .container {
-    border-top: 1px solid #ccc;
-    padding: 20px 5px 20px 5px;
-    border-radius: 4px;
-  }
+  background-color: @footer-background-color;
+
   a, a:visited {
     color: #999;
   }
   .links {
-    margin: 0;
+    height:@footer-height;
+    margin: 0 0 0 5px;
     padding: 0;
-    
+
     li {
       display: inline-block;
+      height:100%;
+      padding-top:3px;
       padding-right: 10px;
       margin-right: 10px;
       list-style: none;
@@ -92,13 +125,14 @@ select, textarea, input, .form-control {
   line-height: 11px;
   background-color: #ccc;
   border-radius: 4px;
-  
+
   img {
     width: inherit;
     height: inherit;
     margin: 0;
   }
-}​
+}
+
 
 .force-wrap {
   white-space: pre-wrap; /* css-3 */

@@ -1,59 +1,16 @@
-doctype 5
-html
-  | <script language="javascript" type="text/javascript">
-  | //<![CDATA[
-  | var tl_loc0=(window.location.protocol == "https:")? "https://secure.comodo.net/trustlogo/javascript/trustlogo.js" :
-  | "http://www.trustlogo.com/trustlogo/javascript/trustlogo.js";
-  | document.writeln('<scr' + 'ipt language="JavaScript" src="'+tl_loc0+'" type="text\/javascript">' + '<\/scr' + 'ipt>');
-  | //]]>
-  | </script>
-  head
-    block head
-      title #{title}
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    link(rel='stylesheet', href='/layouts/core.min.css?#{cacheBreaker}')
-    block neck
-  body
-    div.navbar.navbar-default.navbar-fixed-top
-      div.container
-        div.navbar-header
-          a.navbar-brand(href='/')
-            img.navbar-logo(src='/media/mental-roger.png' alt=navbar-brand-label #{projectName})
-          button.navbar-toggle.collapsed(data-toggle='collapse', data-target='.my-navbar-collapse')
-            span.icon-bar
-            span.icon-bar
-            span.icon-bar
-        div.navbar-collapse.my-navbar-collapse.collapse
-          ul.nav.navbar-nav.pull-right
-            li: a(href='/') Home
-            li: a(href='/about/') About
-            li: a(href='/contact/') Contact
-            li: a(href='/signup/') Sign Up
-            li: a(href='/login/')
-              i.fa.fa-user
-              |  Sign In
-    
-    div.page
-      div.container
-        block body
-    
-    div.footer
-      div.container
-        span.pull-right
-          | <script language="JavaScript" type="text/javascript">
-          | TrustLogo("https://app.outrightmental.com/media/comodo_secure_76x26_white.png", "CL1", "none");
-          | </script>
-        ul.links
-          li: a(href='http://www.outrightmental.com',target='_blank') &#169; #{copyrightYear} #{copyrightName}
-          li: a(href='/') Home
-          li: a(href='/contact/') Contact
-        div.clearfix
-    
-    div.ajax-spinner
-      img(src='/media/ajax-pulse.gif')
-    
-    //if lte IE 9
-      script(src='/layouts/ie-sucks.min.js?#{cacheBreaker}')
-    script(src='/layouts/core.min.js?#{cacheBreaker}')
-    
-    block feet
+extends _global
+
+block layoutCss
+  link(rel='stylesheet', href='/layouts/core.min.css?#{cacheBreaker}')
+  link(rel='stylesheet', href='https://s3.amazonaws.com/outrightmental/vendor/font-awesome/css/font-awesome.min.css')
+
+block layoutNav
+  li: a(href='/') Home
+  li: a(href='/about/') About
+  li: a(href='/contact/') Contact
+  li: a(href='/signup/') Sign Up
+  li: a(href='/login/')
+    i.fa.fa-user
+    | Sign In
+
+block layoutScripts

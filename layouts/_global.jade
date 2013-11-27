@@ -1,0 +1,56 @@
+doctype 5
+html
+  | <script language="javascript" type="text/javascript">
+  | //<![CDATA[
+  | var tl_loc0=(window.location.protocol == "https:")? "https://secure.comodo.net/trustlogo/javascript/trustlogo.js" :
+  | "http://www.trustlogo.com/trustlogo/javascript/trustlogo.js";
+  | document.writeln('<scr' + 'ipt language="JavaScript" src="'+tl_loc0+'" type="text\/javascript">' + '<\/scr' + 'ipt>');
+  | //]]>
+  | </script>
+  head
+    block head
+      // Replaced by View
+      title #{title}
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    block layoutCss
+      // Replaced by Layout
+    block neck
+      // Replaced by View
+  body
+    div.wrapper
+      div.navbar.navbar-default.navbar-fixed-top
+        div.container
+          div.navbar-header
+            a.navbar-brand(href='/')
+              img.navbar-logo(src='/media/mental-roger-white.png' alt=navbar-brand-label #{projectName})
+            button.navbar-toggle.collapsed(data-toggle='collapse', data-target='.my-navbar-collapse')
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+          div.navbar-collapse.my-navbar-collapse.collapse
+            ul.nav.navbar-nav.pull-right
+              block layoutNav
+                // Replaced by Layout
+      div.page
+        div.container
+          block body
+            // Replaced by View
+      div.ajax-spinner
+        img(src='/media/ajax-pulse.gif')
+      div.push
+
+    div.footer
+      span.pull-right
+        | <script language="JavaScript" type="text/javascript">
+        | TrustLogo("https://app.outrightmental.com/media/comodo_secure_76x26_white.png", "CL1", "none");
+        | </script>
+      ul.links
+        li: a(href='http://www.outrightmental.com',target='_blank') &#169; #{copyrightYear} #{copyrightName}
+      div.clearfix
+
+    script(src='/layouts/core.min.js?#{cacheBreaker}')
+    block layoutScripts
+      // Replaced by Layout
+
+    block feet
+      // Replaced by View
