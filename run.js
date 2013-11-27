@@ -118,21 +118,20 @@ else {
 //a function that handles building assets
 var build = function(filePath) {
   //just lint if it's our less tools
-  if (/public\/less/.test(filePath)) {
+  if (/public([\/\\])less/.test(filePath)) {
     return lintLESS(filePath);
   }
   
   //add dependencies for core styles
   var dependencies;
-  if (/public\/layouts\/core\.less/.test(filePath)) {
+  if (/public([\/\\])layouts([\/\\])core\.less/.test(filePath)) {
     dependencies = [
-      'public/less/bootstrap-build.less',
-      'public/vendor/font-awesome/less/font-awesome.less'
+      'public/less/bootstrap-build.less'
     ];
   }
   
   //add dependencies for core js
-  if (/public\/layouts\/core\.js/.test(filePath)) {
+  if (/public([\/\\])layouts([\/\\])core\.js/.test(filePath)) {
     dependencies = [
       'public/vendor/jquery/jquery.js',
       'public/vendor/underscore/underscore.js',
@@ -154,7 +153,7 @@ var build = function(filePath) {
   }
   
   //add dependencies for ie-sucks js
-  if (/public\/layouts\/ie-sucks\.js/.test(filePath)) {
+  if (/public([\/\\])layouts([\/\\])ie-sucks\.js/.test(filePath)) {
     dependencies = [
       'public/vendor/html5shiv/dist/html5shiv.js',
       'public/vendor/respond/respond.src.js'
@@ -188,6 +187,7 @@ var lintLESS = function(filePath, cb) {
 //a function that compiles less files
 var compileLESS = function(filePath, dependencyPaths) {
   if (!dependencyPaths) { dependencyPaths = []; }
+  console.log('-------------------------------------------------DEPS ' + dependencyPaths);
   var args = ['--compress'];
   args = args.concat(dependencyPaths, filePath);
   
