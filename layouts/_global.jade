@@ -9,32 +9,21 @@ html
   | </script>
   head
     block head
-      // Replaced by View
+
       title #{title}
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     block layoutCss
-      // Replaced by Layout
+
     block neck
-      // Replaced by View
+
   body
     div.wrapper
-      div.navbar.navbar-default.navbar-fixed-top
-        div.container
-          div.navbar-header
-            a.navbar-brand(href='/')
-              img.navbar-logo(src='/media/mental-roger-white.png' alt=navbar-brand-label #{projectName})
-            button.navbar-toggle.collapsed(data-toggle='collapse', data-target='.my-navbar-collapse')
-              span.icon-bar
-              span.icon-bar
-              span.icon-bar
-          div.navbar-collapse.my-navbar-collapse.collapse
-            ul.nav.navbar-nav.pull-right
-              block layoutNav
-                // Replaced by Layout
+      block layoutNav
+
       div.page
         div.container
           block body
-            // Replaced by View
+
       div.ajax-spinner
         img(src='/media/ajax-pulse.gif')
       div.push
@@ -50,7 +39,5 @@ html
 
     script(src='/layouts/core.min.js?#{cacheBreaker}')
     block layoutScripts
-      // Replaced by Layout
 
     block feet
-      // Replaced by View

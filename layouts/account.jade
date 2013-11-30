@@ -5,10 +5,21 @@ block layoutCss
   link(rel='stylesheet', href='https://s3.amazonaws.com/outrightmental/vendor/font-awesome/css/font-awesome.min.css')
 
 block layoutNav
-  li: a(href='/account/') My Account
-  li: a(href='/account/settings/') Settings
-  li: a(href='/logout/')
-    i.fa.fa-user
-    | Sign Out
+  div.navbar.navbar-default.navbar-fixed-top
+    div.container
+      div.navbar-header
+        a.navbar-brand(href='/')
+          img.navbar-logo(src='/media/mental-roger-white.png' alt=navbar-brand-label #{projectName})
+        button.navbar-toggle.collapsed(data-toggle='collapse', data-target='.my-navbar-collapse')
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+      div.navbar-collapse.my-navbar-collapse.collapse
+        ul.nav.navbar-nav.pull-right
+          li: a(href='/account/') My Account
+          li: a(href='/account/settings/') Settings
+          li: a(href='/logout/')
+            i.fa.fa-user
+            | Sign Out
 
 block layoutScripts

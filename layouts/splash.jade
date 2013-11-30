@@ -1,0 +1,14 @@
+extends _global
+
+block layoutCss
+  link(rel='stylesheet', href='/layouts/core.min.css?#{cacheBreaker}')
+  link(rel='stylesheet', href='/layouts/splash.min.css?#{cacheBreaker}')
+  link(rel='stylesheet', href='https://s3.amazonaws.com/outrightmental/vendor/font-awesome/css/font-awesome.min.css')
+
+block layoutNav
+
+block layoutScripts
+  script(type="text/css")
+    body {
+      padding-top: 0;
+    }
