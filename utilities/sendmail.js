@@ -1,6 +1,6 @@
 'use strict';
 
-exports = module.exports = function(req, res, options) {
+var exports = module.exports = function(req, res, options) {
   /* options = {
     from: String, 
     to: String,

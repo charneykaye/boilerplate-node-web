@@ -1,7 +1,7 @@
 extends ../layouts/splash
 
 block head
-  title Drywall is Running
+  title Outright Mental Inc.
 
 block neck
   link(rel='stylesheet', href='/views/index.min.css?#{cacheBreaker}')
@@ -10,7 +10,8 @@ block body
   div.row
     div.col-md-6
       div.splash.ticket-stub
-        img(src='/media/om-ticket-stub.png')
+        a(href="/login/")
+          img(src='/media/om-ticket-stub.png')
   div.clearfix
   div.row
     div.col-md-6
