@@ -2,35 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd748a7b-460a-40e3-9718-f41e492da085" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/apple-touch-icon-114x114-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/apple-touch-icon-144x144-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/apple-touch-icon-57x57-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/apple-touch-icon-72x72-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/_global.jade" />
-      <change type="DELETED" beforePath="C:\Development\outrightmental\om-web\public\media\logo-symbol-32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Development\outrightmental\om-web\public\media\logo-symbol-64x64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Development\outrightmental\om-web\public\media\mental-roger.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Development\outrightmental\om-web\public\stylesheets\style.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/splash.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/layouts/splash.less" />
+      <change type="MOVED" beforePath="C:\Development\outrightmental\om-web\outrightmental-web.iml" afterPath="$PROJECT_DIR$/om-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/_global.jade" afterPath="$PROJECT_DIR$/layouts/_global.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/account.jade" afterPath="$PROJECT_DIR$/layouts/account.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/admin.jade" afterPath="$PROJECT_DIR$/layouts/admin.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/bootstrap-build.less" afterPath="$PROJECT_DIR$/public/less/bootstrap-build.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/theme/bootstrap-theme.less" afterPath="$PROJECT_DIR$/public/less/theme/bootstrap-theme.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/vars/bootstrap-vars.less" afterPath="$PROJECT_DIR$/public/less/vars/bootstrap-vars.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/layouts/core.less" afterPath="$PROJECT_DIR$/public/layouts/core.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/default.jade" afterPath="$PROJECT_DIR$/layouts/default.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/login/forgot/index.js" afterPath="$PROJECT_DIR$/public/views/login/forgot/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/index.less" afterPath="$PROJECT_DIR$/public/views/index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/admin/categories/index.less" afterPath="$PROJECT_DIR$/public/views/admin/categories/index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/admin/statuses/index.less" afterPath="$PROJECT_DIR$/public/views/admin/statuses/index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.js" afterPath="$PROJECT_DIR$/run.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/account/index.jade" afterPath="$PROJECT_DIR$/views/account/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/login/index.jade" afterPath="$PROJECT_DIR$/views/login/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/signup/index.jade" afterPath="$PROJECT_DIR$/views/signup/index.jade" />
     </list>
     <ignored path="outrightmental-web.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385536570591" ignored="false" />
+    <file path="/Dummy.txt" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385779911158" ignored="false" />
     <file path="/package.json" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1384677273535" ignored="false" />
     <file path="/ReadMe.md" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1384678024733" ignored="false" />
     <file path="/a.dummy" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385539372841" ignored="false" />
@@ -40,8 +27,8 @@
     <file path="/build.sh" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1384806513739" ignored="false" />
     <file path="/.bowerrc" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1384806315672" ignored="false" />
     <file path="/bower.json" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1384806460772" ignored="false" />
-    <file path="/default.jade" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385534267909" ignored="false" />
-    <file path="/index.jade" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1384830418601" ignored="false" />
+    <file path="/default.jade" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385782093756" ignored="false" />
+    <file path="/index.jade" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385782129027" ignored="false" />
     <file path="/utilities.js" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385329819415" ignored="false" />
     <file path="/config.js" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385358339355" ignored="false" />
     <file path="/routes.js" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385361372402" ignored="false" />
@@ -49,14 +36,27 @@
     <file path="/bootstrap-theme.less" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385539683356" ignored="false" />
     <file path="/bootstrap-build.less" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385535769499" ignored="false" />
     <file path="/a.jade" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385530615717" ignored="false" />
-    <file path="/_global.jade" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385539307668" ignored="false" />
+    <file path="/_global.jade" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385780310642" ignored="false" />
     <file path="/admin.jade" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385534160062" ignored="false" />
     <file path="/foot.less" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385534384051" ignored="false" />
-    <file path="/core.less" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385539015288" ignored="false" />
+    <file path="/core.less" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385781273723" ignored="false" />
     <file path="$PROJECT_DIR$/../boilerplate-yii-web/frontend/LESS/cosmetic/head.less" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385536977265" ignored="false" />
     <file path="/run.js" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385537348379" ignored="false" />
     <file path="/index.less" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385539218483" ignored="false" />
     <file path="/bootstrap-vars.less" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385540165385" ignored="false" />
+    <file path="$PROJECT_DIR$/public/views/admin/users/details.min.js.map" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385541871765" ignored="false" />
+    <file path="$PROJECT_DIR$/public/views/admin/accounts/details.min.js.map" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385541871765" ignored="false" />
+    <file path="$PROJECT_DIR$/public/views/account/verification/index.min.js.map" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385541871765" ignored="false" />
+    <file path="$PROJECT_DIR$/public/views/admin/accounts/index.min.js" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385541871765" ignored="false" />
+    <file path="$PROJECT_DIR$/public/views/admin/accounts/details.min.js" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385541871765" ignored="false" />
+    <file path="$PROJECT_DIR$/public/views/account/settings/index.min.js" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385541871765" ignored="false" />
+    <file path="$PROJECT_DIR$/public/views/account/index.min.js.map" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385541871765" ignored="false" />
+    <file path="$PROJECT_DIR$/public/views/account/settings/index.min.js.map" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385541871765" ignored="false" />
+    <file path="$PROJECT_DIR$/public/views/admin/users/details.min.js" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385541871765" ignored="false" />
+    <file path="$PROJECT_DIR$/public/views/admin/accounts/index.min.js.map" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385541871765" ignored="false" />
+    <file path="$PROJECT_DIR$/public/views/account/verification/index.min.js" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385541871765" ignored="false" />
+    <file path="/splash.jade" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385780897050" ignored="false" />
+    <file path="/splash.less" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385781602219" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +71,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -107,7 +108,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -119,46 +119,66 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="bootstrap-build.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/less/bootstrap-build.less">
+          <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/routes.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="49" column="0" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0">
+                <state line="37" column="84" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="details.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/views/admin/accounts/details.less">
+          <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/views/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="19" selection-start="64" selection-end="69" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/views/index.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="21" column="41" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.jade" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/views/login/index.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="12" column="15" selection-start="202" selection-end="202" vertical-scroll-proportion="0.14488636">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/views/signup/index.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/views/signup/index.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="41" column="21" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/views/admin/categories/index.less">
+          <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/views/account/index.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="9" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bootstrap-vars.less" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/less/vars/bootstrap-vars.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="149" column="45" selection-start="4411" selection-end="4411" vertical-scroll-proportion="0.30975348">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="run.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/run.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="189" column="0" selection-start="5485" selection-end="5485" vertical-scroll-proportion="-19.56">
+                <state line="15" column="31" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -167,34 +187,25 @@
           <file leaf-file-name="_global.jade" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/layouts/_global.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="64" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
+                <state line="24" column="20" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/views/index.less">
+          <file leaf-file-name="account.jade" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/layouts/account.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="18" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+                <state line="7" column="0" selection-start="239" selection-end="720" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="core.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/layouts/core.less">
+          <file leaf-file-name="admin.jade" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/layouts/admin.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="46" column="29" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bootstrap-theme.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/less/theme/bootstrap-theme.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="0" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0">
+                <state line="9" column="17" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -207,7 +218,7 @@
           <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bower.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="12" selection-start="347" selection-end="360" vertical-scroll-proportion="-0.65384614">
+                <state line="14" column="12" selection-start="347" selection-end="360" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -225,7 +236,34 @@
           <file leaf-file-name="default.jade" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/layouts/default.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="43" selection-start="399" selection-end="399" vertical-scroll-proportion="0.21383648">
+                <state line="19" column="37" selection-start="799" selection-end="799" vertical-scroll-proportion="0.22810735">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="splash.jade" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/layouts/splash.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="4" column="2" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="splash.less" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/layouts/splash.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="24" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="core.less" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/layouts/core.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="17" column="7" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -252,22 +290,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/less/bootstrap-theme.less" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/public/less/core.less" />
-        <option value="$PROJECT_DIR$/layouts/admin.jade" />
-        <option value="$PROJECT_DIR$/layouts/default.jade" />
-        <option value="$PROJECT_DIR$/layouts/account.jade" />
-        <option value="$PROJECT_DIR$/public/less/global/foot.less" />
-        <option value="$PROJECT_DIR$/public/views/login/forgot/index.js" />
-        <option value="$PROJECT_DIR$/public/views/admin/categories/index.less" />
-        <option value="$PROJECT_DIR$/public/less/bootstrap-build.less" />
         <option value="$PROJECT_DIR$/public/views/index.less" />
-        <option value="$PROJECT_DIR$/layouts/_global.jade" />
-        <option value="$PROJECT_DIR$/public/layouts/core.less" />
         <option value="$PROJECT_DIR$/run.js" />
         <option value="$PROJECT_DIR$/public/less/theme/bootstrap-theme.less" />
         <option value="$PROJECT_DIR$/public/less/vars/bootstrap-vars.less" />
+        <option value="$PROJECT_DIR$/layouts/account.jade" />
+        <option value="$PROJECT_DIR$/layouts/_global.jade" />
+        <option value="$PROJECT_DIR$/layouts/admin.jade" />
+        <option value="$PROJECT_DIR$/layouts/splash.jade" />
+        <option value="$PROJECT_DIR$/routes.js" />
+        <option value="$PROJECT_DIR$/public/layouts/core.less" />
+        <option value="$PROJECT_DIR$/public/layouts/splash.less" />
+        <option value="$PROJECT_DIR$/views/signup/index.jade" />
+        <option value="$PROJECT_DIR$/views/account/index.jade" />
+        <option value="$PROJECT_DIR$/layouts/default.jade" />
+        <option value="$PROJECT_DIR$/views/index.jade" />
+        <option value="$PROJECT_DIR$/views/login/index.jade" />
       </list>
     </option>
   </component>
@@ -275,8 +313,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1616" />
+    <option name="width" value="2572" />
+    <option name="height" value="1612" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -334,6 +372,11 @@
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="module-sdk-not-defined(module:outrightmental-web,&lt; null &gt;)" />
+    </ignored-problems>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -347,6 +390,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -376,24 +420,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="om-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="om-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -408,11 +434,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="om-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="om-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="account" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,54 +471,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="om-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="om-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vars" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="om-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="om-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -494,31 +490,31 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="preferences.sourceCode.Jade" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../boilerplate-yii-web" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Development\outrightmental\om-web\public" />
+      <recent name="C:\Development\outrightmental\om-web\public\layouts" />
       <recent name="C:\Development\outrightmental\om-web\layouts" />
+      <recent name="C:\Development\outrightmental\om-web\public" />
       <recent name="C:\Development\outrightmental\om-web\public\less\vars" />
       <recent name="C:\Development\outrightmental\om-web\public\less\theme" />
     </key>
@@ -549,19 +545,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -588,6 +571,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -659,13 +655,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1616" extended-state="6" />
+    <frame x="-8" y="-8" width="2572" height="1612" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31939685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -683,11 +678,12 @@
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2442323" sideWeight="0.68060315" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2442231" sideWeight="0.68060315" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31939685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -754,9 +750,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
+    <entry file="file://$PROJECT_DIR$/public/less/vars/bootstrap-vars.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+        <state line="41" column="72" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -768,31 +764,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/_global.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="20" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/account.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="8" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="239" selection-end="720" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/admin.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1385534296666" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1385534296666" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1385534296666" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1385534296666" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1385534296666" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1385534296666" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1385534296666" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1385534296666" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1385534296666" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state line="9" column="17" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/contact/index.js">
+    <entry file="file://$PROJECT_DIR$/layouts/splash.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="64" selection-end="69" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="84" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/layouts/core.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="7" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/signup/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
@@ -801,79 +822,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/admin/accounts/details.less">
+    <entry file="file://$PROJECT_DIR$/views/signup/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="41" column="21" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/layouts/splash.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/default.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="43" selection-start="399" selection-end="399" vertical-scroll-proportion="0.21383648">
+        <state line="19" column="37" selection-start="799" selection-end="799" vertical-scroll-proportion="0.22810735">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/less/bootstrap-build.less">
+    <entry file="file://$PROJECT_DIR$/views/account/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0">
+        <state line="15" column="31" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/index.less">
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+        <state line="21" column="41" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/_global.jade">
+    <entry file="file://$PROJECT_DIR$/views/login/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="64" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/layouts/core.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="29" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/font-awesome/src/3.2.1/assets/less/bootstrap-2.3.2/mixins.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="456" column="3" selection-start="13899" selection-end="13899" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="0" selection-start="5485" selection-end="5485" vertical-scroll-proportion="-19.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/bootstrap/less/mixins.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.028939">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/less/theme/bootstrap-theme.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/less/vars/bootstrap-vars.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="45" selection-start="4411" selection-end="4411" vertical-scroll-proportion="0.30975348">
+        <state line="12" column="15" selection-start="202" selection-end="202" vertical-scroll-proportion="0.14488636">
           <folding />
         </state>
       </provider>
@@ -931,7 +917,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>outrightmental-web</last-edited>
+          <last-edited>om-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
