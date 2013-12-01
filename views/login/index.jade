@@ -27,42 +27,42 @@ block body
             if oauthTwitter
               a.btn.btn-info(href='/login/twitter/')
                 i.fa.fa-twitter.fa-lg
+                | &nbsp;
                 = __('app.external.twitter')
             if oauthGitHub
               a.btn.btn-info(href='/login/github/')
                 i.fa.fa-github.fa-lg
+                | &nbsp;
                 = __('app.external.github')
             if oauthFacebook
               a.btn.btn-info(href='/login/facebook/')
                 i.fa.fa-facebook-square.fa-lg
-                =  __('app.external.facebook')
+                | &nbsp;
+                = __('app.external.facebook')
       hr
       p
-        | Don't have an account? Please
-        = " "
-        a(href='/signup/') Sign Up
-        = " "
-        | to create one.
+        = __('app.login.dont-have-create.a') + " "
+        a(href='/signup/')= __('app.signup')
+        = " " + __('app.login.dont-have-create.b')
 
 
   script(type='text/template', id='tmpl-login')
     form
       div.alerts
-        |<% _.each(errors, function(err) { %>
+        | <% _.each(errors, function(err) { %>
         div.alert.alert-danger.alert-dismissable
           button.close(type='button', data-dismiss='alert') &times;
           |<%= err %>
-        |<% }); %>
+        | <% }); %>
       div.form-group(class!='<%= errfor.username ? "has-error" : "" %>')
-        label.control-label Username or Email:
+        label.control-label= __('app.login.form.username-or-email') + ":"
         input.form-control(type='text', name='username', value!='<%= username %>')
         span.help-block <%= errfor.username %>
       div.form-group(class!='<%= errfor.password ? "has-error" : "" %>')
-        label.control-label Password:
+        label.control-label= __('app.login.form.password') + ":"
         input.form-control(type='password', name='password', value!='<%= password %>')
         span.help-block <%= errfor.password %>
       div.form-actions
-        button.btn.btn-primary.btn-login(type='button') Sign In
-        | 
-        a.btn.btn-link(href='/login/forgot/') Forget your password?
+        button.btn.btn-primary.btn-login(type='button')= __('app.login')
+        a.btn.btn-link(href='/login/forgot/')= __('app.login.forgot-password-q')
         input(type='hidden', name='returnUrl', value=returnUrl)
