@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd748a7b-460a-40e3-9718-f41e492da085" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schema/Account.js" afterPath="$PROJECT_DIR$/schema/Account.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schema/Admin.js" afterPath="$PROJECT_DIR$/schema/Admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schema/AdminGroup.js" afterPath="$PROJECT_DIR$/schema/AdminGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schema/Category.js" afterPath="$PROJECT_DIR$/schema/Category.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schema/Note.js" afterPath="$PROJECT_DIR$/schema/Note.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schema/Status.js" afterPath="$PROJECT_DIR$/schema/Status.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schema/StatusLog.js" afterPath="$PROJECT_DIR$/schema/StatusLog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schema/User.js" afterPath="$PROJECT_DIR$/schema/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/login/index.jade" afterPath="$PROJECT_DIR$/views/login/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schema/plugins/pagedFind.js" afterPath="$PROJECT_DIR$/schema/plugins/pagedFind.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utilities/sendmail.js" afterPath="$PROJECT_DIR$/utilities/sendmail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utilities/slugify.js" afterPath="$PROJECT_DIR$/utilities/slugify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/splash.jade" afterPath="$PROJECT_DIR$/layouts/splash.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/layouts/splash.less" afterPath="$PROJECT_DIR$/public/layouts/splash.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utilities/workflow.js" afterPath="$PROJECT_DIR$/utilities/workflow.js" />
-    </list>
+    <list default="true" id="bd748a7b-460a-40e3-9718-f41e492da085" name="Default" comment="" />
     <ignored path="outrightmental-web.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385779911158" ignored="false" />
+    <file path="/Dummy.txt" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385923880041" ignored="false" />
     <file path="/package.json" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1384677273535" ignored="false" />
     <file path="/ReadMe.md" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1384678024733" ignored="false" />
     <file path="/a.dummy" changelist="bd748a7b-460a-40e3-9718-f41e492da085" time="1385782460004" ignored="false" />
@@ -216,10 +199,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="pagedFind.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="pagedFind.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/schema/plugins/pagedFind.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="83" column="2" selection-start="2100" selection-end="2100" vertical-scroll-proportion="1.4947034">
+                <state line="17" column="43" selection-start="357" selection-end="357" vertical-scroll-proportion="0.16335227">
                   <folding />
                 </state>
               </provider>
@@ -265,10 +248,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.jade" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/index.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="23" selection-start="240" selection-end="240" vertical-scroll-proportion="0.21139896">
+                <state line="22" column="45" selection-start="507" selection-end="507" vertical-scroll-proportion="0.2617215">
                   <folding />
                 </state>
               </provider>
@@ -423,7 +406,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -536,6 +518,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -550,11 +533,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -591,6 +574,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -617,19 +613,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -707,7 +690,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31890035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -730,6 +712,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31890035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -796,13 +779,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utilities/slugify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utilities/sendmail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="4" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
@@ -866,13 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/schema/plugins/pagedFind.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="2" selection-start="2100" selection-end="2100" vertical-scroll-proportion="1.4947034">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/default.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="239" selection-end="799" vertical-scroll-proportion="0.0">
@@ -901,9 +870,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="12" selection-start="347" selection-end="360" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="240" selection-end="240" vertical-scroll-proportion="0.21139896">
+        <state line="22" column="45" selection-start="507" selection-end="507" vertical-scroll-proportion="0.2617215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schema/plugins/pagedFind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="43" selection-start="357" selection-end="357" vertical-scroll-proportion="0.16335227">
           <folding />
         </state>
       </provider>
