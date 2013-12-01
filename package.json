@@ -6,10 +6,6 @@
         {
             "name": "Nick Kaye",
             "email": "nick@outrightmental.com"
-        },
-        {
-            "name": "Pete Van Dyke",
-            "email": "pete@outrightmental.com"
         }
     ],
     "description": "Node.js Web Service & HTML5 Frontend",
