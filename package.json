@@ -1,15 +1,11 @@
 {
     "name": "outrightmental-web",
-    "version": "0.0.1-9",
+    "version": "0.0.1-30",
     "title": "The Outright Mental Web Application",
     "authors": [
         {
             "name": "Nick Kaye",
             "email": "nick@outrightmental.com"
-        },
-        {
-            "name": "Pete Van Dyke",
-            "email": "pete@outrightmental.com"
         }
     ],
     "description": "Node.js Web Service & HTML5 Frontend",
