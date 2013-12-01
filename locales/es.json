@@ -1,14 +1,20 @@
 {
-    "splash.title": "splash.title",
-    "splash.headline": "splash.headline",
-    "app.login": "app.login",
-    "app.signup": "app.signup",
-    "app.login.or-use-externals": "app.login.or-use-externals",
-    "app.external.twitter": "app.external.twitter",
-    "app.external.facebook": "app.external.facebook",
-    "app.login.dont-have-create.a": "app.login.dont-have-create.a",
-    "app.login.dont-have-create.b": "app.login.dont-have-create.b",
-    "app.login.form.username-or-email": "app.login.form.username-or-email",
-    "app.login.form.password": "app.login.form.password",
-    "app.login.forgot-password-q": "app.login.forgot-password-q"
+    "app": "App",
+    "app.login": "Iniciar Sesión",
+    "app.login.form.username-or-email": "Usario o Correo",
+    "app.login.form.password": "Contraseña",
+    "app.login.forgot-password-q": "¿Contraseña perdido?",
+    "app.login.or-use-externals": "o Iniciar Sesión con...",
+    "app.login.dont-have-create.a": "¿No tiene una cuenta? Por favor ",
+    "app.login.dont-have-create.b": "para crear lo.",
+    "app.signup": "Registrarse",
+    "app.signup.sign-up-here": "Registrarse Aqui",
+    "app.external.twitter": "Twitter",
+    "app.external.facebook": "Facebook",
+
+    "splash": "Mancha",
+    "splash.headline": "Experiencias Mas Allá de Medios",
+    "splash.title": "Total Mental™",
+
+    "end": "end"
 }
