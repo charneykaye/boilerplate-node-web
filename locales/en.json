@@ -1,3 +1,13 @@
 {
-	"splash.headline": "yarr"
+	"app": "App",
+	"app.login": "Login",
+	"app.signup": "Sign Up",
+	"splash": "Splash",
+	"splash.headline": "Welcome!",
+	"splash.title": "Outright Mental™",
+	"app.external.twitter": "app.external.twitter",
+	"app.external.facebook": "app.external.facebook",
+    "app.login.or-use-externals":"Or sign in using...",
+    "app.signup.sign-up-here": "Sign Up Here",
+    "end":"end"
 }
