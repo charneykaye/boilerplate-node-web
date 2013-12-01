@@ -45,7 +45,7 @@ require('./models')(app, mongoose);
 
 // Internationalization
 i18n.configure({
-    defaultLocale: 'es',
+    defaultLocale: 'en',
     locales:['en', 'es'], // TODO: Implement alternate languages @link https://www.pivotaltracker.com/story/show/61690428
     directory: __dirname + '/locales'
 });

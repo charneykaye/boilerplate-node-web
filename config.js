@@ -36,4 +36,4 @@ exports.oauth = {
 };
 exports.logentries = {
     token: process.env.LOGENTRIES_TOKEN || ''
-}
+};

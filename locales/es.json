@@ -1,2 +1,14 @@
 {
+    "splash.title": "splash.title",
+    "splash.headline": "splash.headline",
+    "app.login": "app.login",
+    "app.signup": "app.signup",
+    "app.login.or-use-externals": "app.login.or-use-externals",
+    "app.external.twitter": "app.external.twitter",
+    "app.external.facebook": "app.external.facebook",
+    "app.login.dont-have-create.a": "app.login.dont-have-create.a",
+    "app.login.dont-have-create.b": "app.login.dont-have-create.b",
+    "app.login.form.username-or-email": "app.login.form.username-or-email",
+    "app.login.form.password": "app.login.form.password",
+    "app.login.forgot-password-q": "app.login.forgot-password-q"
 }
