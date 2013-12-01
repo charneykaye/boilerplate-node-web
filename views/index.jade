@@ -1,7 +1,7 @@
 extends ../layouts/splash
 
 block head
-  title Outright Mental Inc.
+  title= __('splash.title')
 
 block neck
   link(rel='stylesheet', href='/views/index.min.css?#{cacheBreaker}')
@@ -17,6 +17,7 @@ block body
     div.col-md-6
       div.splash.options
         div
-          a.btn.btn-primary.btn-lg(href='/login/') Login
-          a.btn.btn-default.btn-lg(href='/signup/') Sign Up
+          h1= __('splash.headline')
+          a.btn.btn-primary.btn-lg(href='/login/')= __('app.login')
+          a.btn.btn-default.btn-lg(href='/signup/')= __('app.signup')
         div.clearfix

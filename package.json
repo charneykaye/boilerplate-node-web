@@ -44,6 +44,8 @@
         "emailjs": "~0.3.6",
         "express": "~3.4.1",
         "findit2": "~0.2.0",
+        "i18n": "*",
+        "i18next": "*",
         "jade": "~0.35.0",
         "jshint": "~2.1.11",
         "node-logentries": "0.0.2",

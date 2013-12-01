@@ -6,6 +6,7 @@ var config = require('./config');
 // dependencies
 var express = require('express'),
     http = require('http'),
+    i18n = require('i18n'),
     logentries = require('node-logentries'),
     mongoose = require('mongoose'),
     mongoStore = require('connect-mongo')(express),
@@ -36,11 +37,18 @@ app.db.once('open', function () {
     //and... we have a data store
 });
 
+//setup the session store
+app.sessionStore = new mongoStore({ url: config.mongodb.uri });
+
 //config data models
 require('./models')(app, mongoose);
 
-//setup the session store
-app.sessionStore = new mongoStore({ url: config.mongodb.uri });
+// Internationalization
+i18n.configure({
+    defaultLocale: 'es',
+    locales:['en', 'es'], // TODO: Implement alternate languages @link https://www.pivotaltracker.com/story/show/61690428
+    directory: __dirname + '/locales'
+});
 
 //config express in all environments
 app.configure(function () {
@@ -83,6 +91,7 @@ app.configure(function () {
     app.use(express.favicon(__dirname + '/public/favicon.ico'));
     app.use(express.static(path.join(__dirname, 'public')));
     app.use(express.bodyParser());
+    app.use(i18n.init);
     app.use(express.methodOverride());
     app.use(express.cookieParser());
     app.use(express.session({

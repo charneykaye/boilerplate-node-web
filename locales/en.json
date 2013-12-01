@@ -1,0 +1,20 @@
+{
+    "app": "App",
+    "app.login": "Login",
+    "app.login.form.username-or-email": "Username or Email",
+    "app.login.form.password": "Password",
+    "app.login.forgot-password-q": "Forget your password?",
+    "app.login.or-use-externals": "Or sign in using...",
+    "app.login.dont-have-create.a": "Don't have an account? Please",
+    "app.login.dont-have-create.b": "to create one.",
+    "app.signup": "Sign Up",
+    "app.signup.sign-up-here": "Sign Up Here",
+    "app.external.twitter": "Twitter",
+    "app.external.facebook": "Facebook",
+
+    "splash": "Splash",
+    "splash.headline": "Experience Beyond Media",
+    "splash.title": "Outright Mental™",
+
+    "end": "end"
+}
