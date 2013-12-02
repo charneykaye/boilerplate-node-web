@@ -7,7 +7,7 @@
 @footer-background-color: #ffffff;
 
 #tl_popupCL1 {
-  display:none;
+  display: none;
 }
 
 html, body {
@@ -15,8 +15,8 @@ html, body {
 }
 
 img {
-  width:100%;
-  height:auto;
+  width: 100%;
+  height: auto;
 }
 
 .wrapper {
@@ -61,20 +61,23 @@ select, textarea, input, .form-control {
   padding-left: 12px;
 }
 
-
 .navbar {
   .box-shadow(0 2px 5px rgba(0,0,0,.125));
 
   a {
     text-decoration: none;
-    background:transparent none;
+    background: transparent none;
+  }
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
   }
   .navbar-brand {
-    padding-left:@logo-padding;
-    padding-top:@logo-padding;
-    padding-right:0;
-    padding-bottom:0;
-    width:auto;
+    padding-left: @logo-padding;
+    padding-top: @logo-padding;
+    padding-right: 0;
+    padding-bottom: 0;
+    width: auto;
     .navbar-logo {
       width: @logo-size;
       height: @logo-size;
@@ -89,6 +92,14 @@ select, textarea, input, .form-control {
   .navbar-brand-label {
     margin-left: 35px;
   }
+  ul.nav {
+    width: 100%;
+    margin: 0;
+    li {
+      width: 100%;
+      text-align: right;
+    }
+  }
 }
 
 .footer {
@@ -100,14 +111,14 @@ select, textarea, input, .form-control {
     color: #999;
   }
   .links {
-    height:@footer-height;
+    height: @footer-height;
     margin: 0 0 0 5px;
     padding: 0;
 
     li {
       display: inline-block;
-      height:100%;
-      padding-top:3px;
+      height: 100%;
+      padding-top: 3px;
       padding-right: 10px;
       margin-right: 10px;
       list-style: none;
@@ -137,7 +148,6 @@ select, textarea, input, .form-control {
     margin: 0;
   }
 }
-
 
 .force-wrap {
   white-space: pre-wrap; /* css-3 */
