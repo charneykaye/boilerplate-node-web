@@ -35,6 +35,7 @@
         "json3": "latest",
         "modernizr": "latest",
         "momentjs": "latest",
+        "moment-countdown" :"latest",
         "requirejs": "latest",
         "requirejs-i18n": "latest",
         "requirejs-text": "latest",
