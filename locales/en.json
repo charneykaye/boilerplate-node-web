@@ -7,14 +7,24 @@
     "app.login.or-use-externals": "Or sign in using...",
     "app.login.dont-have-create.a": "Don't have an account? Please",
     "app.login.dont-have-create.b": "to create one.",
+    "app.logout": "Logout",
     "app.signup": "Sign Up",
     "app.signup.sign-up-here": "Sign Up Here",
     "app.external.twitter": "Twitter",
     "app.external.facebook": "Facebook",
-
+    "app.nav.admin": "Admin",
+    "app.nav.admin.pivoted-settings": "Pivoted Settings",
+    "app.nav.admin.statuses": "Statuses",
+    "app.nav.admin.categories": "Categories",
+    "app.nav.admin.user-admin": "Admin",
+    "app.nav.admin.users": "Users",
+    "app.nav.admin.accounts": "Accounts",
+    "app.nav.admin.administrators": "Administrators",
+    "app.nav.admin.admin-groups": "Admin Groups",
+    "app.nav.account": "Account",
+    "app.nav.account.settings": "Settings",
     "splash": "Splash",
     "splash.headline": "Outright Mental Inc. opens your mind with 100% original experiences beyond media.",
     "splash.title": "Outright Mental™",
-
     "end": "end"
 }
