@@ -7,14 +7,26 @@
     "app.login.or-use-externals": "o Iniciar Sesión con...",
     "app.login.dont-have-create.a": "¿No tiene una cuenta? Por favor ",
     "app.login.dont-have-create.b": "para crear uno.",
+    "app.logout": "Cesar",
     "app.signup": "Registrarse",
     "app.signup.sign-up-here": "Registrarse Aqui",
     "app.external.twitter": "Twitter",
     "app.external.facebook": "Facebook",
-
+    "app.nav.admin": "Admin",
+    "app.nav.admin.pivoted-settings": "Ajustes Girados",
+    "app.nav.admin.statuses": "Estados",
+    "app.nav.admin.categories": "Categorías",
+    "app.nav.admin.user-admin": "Admin",
+    "app.nav.admin.users": "Usarios",
+    "app.nav.admin.accounts": "Cuentas",
+    "app.nav.admin.administrators": "Administradores",
+    "app.nav.admin.admin-groups": "Grupos de Admin",
+    "app.nav.account": "Cuenta",
+    "app.nav.account.settings": "Ajustes",
     "splash": "Mancha",
     "splash.headline": "Outright Mental Inc. abre su mente con experiencias originales 100% más allá de medios.",
     "splash.title": "Outright Mental™",
+
 
     "end": "end"
 }
