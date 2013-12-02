@@ -93,11 +93,17 @@ select, textarea, input, .form-control {
     margin-left: 35px;
   }
   ul.nav {
-    width: 100%;
     margin: 0;
     li {
-      width: 100%;
       text-align: right;
+    }
+  }
+  @media (max-width:767px) {
+    ul.nav {
+      width: 100%;
+      li {
+        width: 100%;
+      }
     }
   }
 }
