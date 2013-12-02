@@ -4,6 +4,10 @@
 #-- then derive the base path of the application
 BASEPATH=`dirname $0`
 
+#-- Bower Pakcages
+bower install
+bower update
+
 #-- Install Node Packages
 npm install
 

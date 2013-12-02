@@ -13,5 +13,8 @@ block body
   div.row
     div.col-sm-6
       div.page-header
-        h1#countdown
-        p= __('account.subtext')
+        h1
+          = __('account.headline-pre') + ' '
+          span#fromNow
+          = __('account.headline-post')
+      p= __('account.subtext')

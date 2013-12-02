@@ -155,7 +155,8 @@ var build = function (filePath) {
             'public/vendor/bootstrap/js/scrollspy.js',
             'public/vendor/bootstrap/js/tab.js',
             'public/vendor/bootstrap/js/transition.js',
-            'public/vendor/moment/moment.js'
+            'public/vendor/moment/moment.js',
+            'public/vendor/countdown.js/lib/countdown.js'
         ];
     }
 
