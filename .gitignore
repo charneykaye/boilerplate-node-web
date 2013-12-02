@@ -1,4 +1,5 @@
 .idea/workspace.xml
+run.sh
 
 lib-cov
 *.seed
