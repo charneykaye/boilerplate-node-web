@@ -141,7 +141,7 @@ var build = function (filePath) {
     if (/public([\/\\])layouts([\/\\])core\.js/.test(filePath)) {
         dependencies = [
             'public/vendor/jquery/jquery.js',
-            'public/vendor/underscore/underscore.js',
+            'public/vendor/underscore-amd/underscore.js',
             'public/vendor/backbone/backbone.js',
             'public/vendor/bootstrap/js/affix.js',
             'public/vendor/bootstrap/js/alert.js',
@@ -155,7 +155,7 @@ var build = function (filePath) {
             'public/vendor/bootstrap/js/scrollspy.js',
             'public/vendor/bootstrap/js/tab.js',
             'public/vendor/bootstrap/js/transition.js',
-            'public/vendor/momentjs/moment.js',
+            'public/vendor/momentjs/min/moment-with-langs.js',
             'public/vendor/countdown.js/lib/countdown.js'
         ];
     }
@@ -183,7 +183,7 @@ var build = function (filePath) {
 
 //a function that lints less files
 var lintLESS = function (filePath, cb) {
-    var lesscmd = cp.spawn(createCommand('node_modules/.bin/recess'), [filePath, '--noSummary', '--strictPropertyOrder', 'false']);
+    var lesscmd = cp.spawn(createCommand('node_modules/recess/bin/recess'), [filePath, '--noSummary', '--strictPropertyOrder', 'false']);
     lesscmd.stdout.on('data', function (d) {
         process.stdout.write(d);
     });
@@ -212,7 +212,7 @@ var compileLESS = function (filePath, dependencyPaths) {
     var lessMinPath = basePath + lessMinName;
 
     var cssStream = fs.createWriteStream(lessMinPath);
-    var lesscmd = cp.spawn(createCommand('node_modules/.bin/recess'), args);
+    var lesscmd = cp.spawn(createCommand('node_modules/recess/bin/recess'), args);
     lesscmd.stdout.on('data', function (d) {
         cssStream.write(d);
     });
@@ -231,7 +231,7 @@ var lintJS = function (filePath, cb) {
     if (!/public\//.test(filePath)) {
         configFile = './.jshintrc-server';
     }
-    var hintcmd = cp.spawn(createCommand('node_modules/.bin/jshint'), [filePath, '--config', configFile]);
+    var hintcmd = cp.spawn(createCommand('node_modules/jshint/bin/jshint'), [filePath, '--config', configFile]);
     hintcmd.stdout.on('data', function (d) {
         process.stdout.write(d);
     });
@@ -265,7 +265,7 @@ var compileJS = function (filePath, dependencyPaths) {
         '--source-map-url', jsMapName
     ]);
 
-    var uglycmd = cp.spawn(createCommand('node_modules/.bin/uglifyjs'), args);
+    var uglycmd = cp.spawn(createCommand('node_modules/uglify-js/bin/uglifyjs'), args);
     uglycmd.stdout.on('data', function (d) {
         process.stdout.write(d);
     });
