@@ -1,13 +1,28 @@
 'use strict';
 
-//dependencies
-var config = require('./config'),
-    express = require('express'),
-    mongoStore = require('connect-mongo')(express),
+// config
+var config = require('./config');
+
+// dependencies
+var express = require('express'),
     http = require('http'),
-    path = require('path'),
+    i18n = require('i18n'),
+    logentries = require('node-logentries'),
+    mongoose = require('mongoose'),
+    mongoStore = require('connect-mongo')(express),
     passport = require('passport'),
-    mongoose = require('mongoose');
+    path = require('path');
+
+// setup logentries
+var
+    log = logentries.logger({
+        token: config.logentries.token
+    }),
+    logStream = {
+        write: function (message, encoding) {
+            log.info(message.replace('\n', ''));
+        }
+    };
 
 //create express app
 var app = express();
@@ -20,6 +35,13 @@ app.db = mongoose.createConnection(config.mongodb.uri);
 app.db.on('error', console.error.bind(console, 'mongoose connection error: '));
 app.db.once('open', function () {
   //and... we have a data store
+});
+
+// Internationalization
+i18n.configure({
+    defaultLocale: 'en',
+    locales: ['en', 'es'], // TODO: Implement alternate languages @link https://www.pivotaltracker.com/story/show/61690428
+    directory: __dirname + '/locales'
 });
 
 //config data models
@@ -82,6 +104,9 @@ app.configure(function(){
   app.locals.copyrightYear = new Date().getFullYear();
   app.locals.copyrightName = app.get('company-name');
   app.locals.cacheBreaker = 'br34k-01';
+
+  // Internationalization
+  app.use(i18n.init);
 });
 
 //config express in dev environment

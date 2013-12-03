@@ -1,0 +1,45 @@
+doctype 5
+html
+  //  Author: Nick Kaye <nick@outrightmental.com>
+  //  Laboratory: Outright Mental Inc.
+  | <script language="javascript" type="text/javascript">
+  | //<![CDATA[
+  | var tl_loc0=(window.location.protocol == "https:")? "https://secure.comodo.net/trustlogo/javascript/trustlogo.js" :
+  | "http://www.trustlogo.com/trustlogo/javascript/trustlogo.js";
+  | document.writeln('<scr' + 'ipt language="JavaScript" src="'+tl_loc0+'" type="text\/javascript">' + '<\/scr' + 'ipt>');
+  | //]]>
+  | </script>
+  head
+    block head
+
+      title #{title}
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    block layoutCss
+
+    block neck
+
+  body
+    div.wrapper
+      block layoutNav
+
+      div.page
+        div.container
+          block body
+
+      div.ajax-spinner
+        img(src='/media/ajax-pulse.gif')
+      div.push
+
+    div.footer
+      span.pull-right
+        | <script language="JavaScript" type="text/javascript">
+        | TrustLogo("https://app.outrightmental.com/media/comodo_secure_76x26_white.png", "CL1", "none");
+        | </script>
+      ul.links
+        li: a(href='http://www.outrightmental.com',target='_blank') &#169; #{copyrightYear} #{copyrightName}
+      div.clearfix
+
+    script(src='/layouts/core.min.js?#{cacheBreaker}')
+    block layoutScripts
+
+    block feet

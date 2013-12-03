@@ -11,7 +11,7 @@
       success: false,
       errors: [],
       errfor: {},
-      email: '',
+      email: ''
     }
   });
 

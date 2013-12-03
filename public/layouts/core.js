@@ -1,5 +1,6 @@
 /* global app:true */
 /* exported app */
+/* global $ */
 
 var app; //the main declaration
 

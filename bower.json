@@ -1,0 +1,47 @@
+{
+    "name": "om-web",
+    "version": "0.0.1-1",
+    "title": "The Outright Mental Web Application",
+    "authors": [
+        {
+            "name": "Nick Kaye",
+            "email": "nick@outrightmental.com"
+        }
+    ],
+    "description": "Node.js Web Service & HTML5 Frontend",
+    "homepage": "https://github.com/outrightmental/om-web",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/outrightmental/om-web"
+    },
+    "bugs": {
+        "url": "https://github.com/outrightmental/om-web/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/outrightmental/om-web/blob/master/LICENSE"
+        }
+    ],
+
+    "dependencies": {
+        "backbone":"latest",
+        "bootstrap": "latest",
+        "countdown.js": "latest",
+        "html5shiv": "latest",
+        "font-awesome": "latest",
+        "history.js": "latest",
+        "jquery": "latest",
+        "jquery-ui": "latest",
+        "jquery.cookie": "latest",
+        "json3": "latest",
+        "modernizr": "latest",
+        "momentjs": "latest",
+        "requirejs": "latest",
+        "requirejs-i18n": "latest",
+        "requirejs-text": "latest",
+        "underscore-amd": "latest"
+    },
+    "devDependencies": {
+    }
+}

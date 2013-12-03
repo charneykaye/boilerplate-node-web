@@ -1,5 +1,12 @@
 'use strict';
 
+/**
+ *
+ * @param req
+ * @param res
+ * @param next
+ * @return {*}
+ */
 function ensureAuthenticated(req, res, next) {
   if (req.isAuthenticated()) {
     return next();
@@ -8,6 +15,13 @@ function ensureAuthenticated(req, res, next) {
   res.redirect('/login/?returnUrl='+ encodeURIComponent(req.originalUrl));
 }
 
+/**
+ *
+ * @param req
+ * @param res
+ * @param next
+ * @return {*}
+ */
 function ensureAdmin(req, res, next) {
   if (req.user.canPlayRoleOf('admin')) {
     return next();
@@ -15,6 +29,13 @@ function ensureAdmin(req, res, next) {
   res.redirect('/');
 }
 
+/**
+ *
+ * @param req
+ * @param res
+ * @param next
+ * @return {*}
+ */
 function ensureAccount(req, res, next) {
   if (req.user.canPlayRoleOf('account')) {
     if (req.app.get('require-account-verification')) {

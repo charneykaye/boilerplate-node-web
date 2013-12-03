@@ -1,6 +1,6 @@
 'use strict';
 
-exports = module.exports = function(app, mongoose) {
+var exports = module.exports = function(app, mongoose) {
   var statusLogSchema = new mongoose.Schema({
     id: { type: String, ref: 'Status' },
     name: { type: String, default: '' },

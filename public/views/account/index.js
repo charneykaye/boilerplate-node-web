@@ -1,10 +1,24 @@
-(function() {
+/* global $ */
+/* global moment */
+/* global Countdown */
+(function () {
   'use strict';
 
-  $('.day-of-year').text(moment().format('DDD'));
-  $('.day-of-month').text(moment().format('D'));
-  $('.week-of-year').text(moment().format('w'));
-  $('.day-of-week').text(moment().format('d'));
-  $('.week-year').text(moment().format('gg'));
-  $('.hour-of-day').text(moment().format('H'));
+  var then = moment('2014-07-02T00:00:00-00:00');
+  var now = moment();
+
+  $(document).ready(function () {
+
+    return new Countdown(then.diff(now),
+      function () {
+        $('#fromNow').html(then.fromNow());
+        // $('#countdown').html(seconds + ' seconds'); //log the number of seconds that have passed
+      },
+      function () {
+        $('#fromNow').html('now'); //log that the countdown has complete
+      }
+    );
+
+  });
 }());
+

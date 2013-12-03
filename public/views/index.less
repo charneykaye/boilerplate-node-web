@@ -1,26 +1,11 @@
-@import '../less/bootstrap-vars.less';
+@import '../less/../less/vars/bootstrap-vars';
 
-.jumbotron {
-  background-color: transparent;
-  text-align: center;
-  padding: 30px 60px;
-
+.splash {
   h1 {
-    font-weight: bold;
+    font-size:20pt;
+    font-weight: normal;
+    text-align:center;
+    margin-bottom: 20px;
+    margin-top:0;
   }
-
-  @media (max-width: @screen-tablet) {
-    h1 {
-      font-size: (@font-size-base * 3.5);
-    }
-  }
-  @media (min-width: @screen-tablet) {
-    h1 {
-      font-size: (@font-size-base * 7.5);
-    }
-  }
-}
-
-.panel h3 {
-  margin-top: 0;
 }

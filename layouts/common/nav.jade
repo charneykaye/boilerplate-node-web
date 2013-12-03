@@ -1,0 +1,29 @@
+ul.nav.navbar-nav.pull-right
+  li.dropdown
+    a.dropdown-toggle(href='#', data-toggle='dropdown')
+      = __('app.nav.admin')
+      nbsp
+      span.caret
+    ul.dropdown-menu
+      li.dropdown-header= __('app.nav.admin.pivoted-settings')
+      li: a(href='/admin/statuses/')= __('app.nav.admin.statuses')
+      li: a(href='/admin/categories/')= __('app.nav.admin.categories')
+      li.divider
+      li.dropdown-header= __('app.nav.admin.user-admin')
+      li: a(href='/admin/users/')= __('app.nav.admin.users')
+      li: a(href='/admin/accounts/')= __('app.nav.admin.accounts')
+      li: a(href='/admin/administrators/')= __('app.nav.admin.administrators')
+      li: a(href='/admin/admin-groups/')= __('app.nav.admin.admin-groups')
+  li.dropdown
+    a.dropdown-toggle(href='#', data-toggle='dropdown')
+      = __('app.nav.account')
+      nbsp
+      span.caret
+    ul.dropdown-menu
+      li: a(href='/account/')= __('app.nav.account')
+      li: a(href='/account/settings/')= __('app.nav.account.settings')
+      li: a(href='/logout/')
+        i.fa.fa-user
+        nbsp
+        = __('app.logout')
+// form.navbar-form.pull-right#_search
