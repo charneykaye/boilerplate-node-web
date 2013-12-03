@@ -2,9 +2,9 @@
 
 (function() {
   'use strict';
-  
+
   app = app || {};
-  
+
   app.Verify = Backbone.Model.extend({
     url: '/account/verification/',
     defaults: {
@@ -15,7 +15,7 @@
       email: ''
     }
   });
-  
+
   app.VerifyView = Backbone.View.extend({
     el: '#verify',
     template: _.template( $('#tmpl-verify').html() ),
@@ -39,16 +39,17 @@
       this.model.set({
         keepFormOpen: true
       });
+      this.render();
     },
     verify: function() {
       this.$el.find('.btn-verify').attr('disabled', true);
-      
+
       this.model.save({
         email: this.$el.find('[name="email"]').val()
       });
     }
   });
-  
+
   $(document).ready(function() {
     app.verifyView = new app.VerifyView();
   });
