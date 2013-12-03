@@ -7,3 +7,4 @@ node_modules/*
 *.min.css
 .nodemonignore
 /run.sh
+.idea/workspace.xml
