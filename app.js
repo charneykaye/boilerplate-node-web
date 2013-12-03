@@ -46,9 +46,12 @@ require('./models')(app, mongoose);
 // Internationalization
 i18n.configure({
     defaultLocale: 'en',
-    locales:['en', 'es'], // TODO: Implement alternate languages @link https://www.pivotaltracker.com/story/show/61690428
+    locales: ['en', 'es'], // TODO: Implement alternate languages @link https://www.pivotaltracker.com/story/show/61690428
     directory: __dirname + '/locales'
 });
+
+//setup the session store
+app.sessionStore = new mongoStore({ url: config.mongodb.uri });
 
 //config express in all environments
 app.configure(function () {
@@ -62,7 +65,7 @@ app.configure(function () {
     app.set('company-name', config.companyName);
     app.set('system-email', config.systemEmail);
     app.set('crypto-key', config.cryptoKey);
-    app.set('require-account-verification', false);
+    app.set('require-account-verification', config.requireAccountVerification);
 
     //smtp settings
     app.set('smtp-from-name', config.smtp.from.name);
@@ -81,14 +84,9 @@ app.configure(function () {
     app.set('facebook-oauth-key', config.oauth.facebook.key);
     app.set('facebook-oauth-secret', config.oauth.facebook.secret);
 
-    //logentries
-    app.use(express.logger({
-        format: 'dev',
-        stream: logStream
-    }));
-
     //middleware
     app.use(express.favicon(__dirname + '/public/favicon.ico'));
+    app.use(express.logger('dev'));
     app.use(express.static(path.join(__dirname, 'public')));
     app.use(express.bodyParser());
     app.use(i18n.init);
@@ -109,7 +107,7 @@ app.configure(function () {
     app.locals.projectName = app.get('project-name');
     app.locals.copyrightYear = new Date().getFullYear();
     app.locals.copyrightName = app.get('company-name');
-    app.locals.cacheBreaker =  new Date().getTime();
+    app.locals.cacheBreaker = 'br34k-01';
 });
 
 //config express in dev environment
@@ -124,10 +122,12 @@ require('./passport')(app, passport);
 require('./routes')(app, passport);
 
 //setup utilities
-require('./utilities')(app);
+app.utility = {};
+app.utility.sendmail = require('drywall-sendmail');
+app.utility.slugify = require('drywall-slugify');
+app.utility.workflow = require('drywall-workflow');
 
 //listen up
 app.server.listen(app.get('port'), function () {
-    console.log('Server alive');
     //and... we're live
 });

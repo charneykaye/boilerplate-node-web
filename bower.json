@@ -25,6 +25,7 @@
     ],
 
     "dependencies": {
+        "backbone":"latest",
         "bootstrap": "latest",
         "countdown.js": "latest",
         "html5shiv": "latest",
