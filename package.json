@@ -1,7 +1,37 @@
 {
-  "name": "Drywall",
-  "version": "0.8.4",
+  "name": "om-web",
+  "version": "0.0.1-45",
+  "title": "The Outright Mental Web Application",
+  "authors": [
+    {
+      "name": "Nick Kaye",
+      "email": "nick@outrightmental.com"
+    }
+  ],
+  "description": "Node.js Web Service & HTML5 Frontend",
+  "homepage": "https://github.com/outrightmental/om-web",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/outrightmental/om-web"
+  },
+  "bugs": {
+    "url": "https://github.com/outrightmental/om-web/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/outrightmental/om-web/blob/master/LICENSE"
+    }
+  ],
   "private": true,
+  "keywords": [
+    "Outright Mental"
+  ],
+  "domains": [
+    "app.outrightmental.com",
+    "om-web.jit.su"
+  ],
+  "subdomain": "om-web",
   "scripts": {
     "start": "node app.js"
   },

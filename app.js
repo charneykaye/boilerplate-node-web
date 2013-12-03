@@ -86,6 +86,7 @@ app.configure(function(){
   app.use(express.logger('dev'));
   app.use(express.static(path.join(__dirname, 'public')));
   app.use(express.bodyParser());
+    app.use(i18n.init);
   app.use(express.methodOverride());
   app.use(express.cookieParser());
   app.use(express.session({
