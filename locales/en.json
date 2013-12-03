@@ -27,8 +27,9 @@
     "splash.headline": "While our digital connectedness may leave us physically isolated, Outright Mental leverages original content and emerging technologies to reconnect with the wonder of the world around us.",
     "splash.title": "Outright Mental™",
     "account.title": "My Outright Mental™ Account",
-    "account.headline-pre":"Our next public release, DOCTOR WURTZ™ premieres",
-    "account.headline-post":".",
-    "account.subtext":"We'll be in touch!",
+    "account.next.pre": "Our first epic,",
+    "account.next.main": "DOCTOR WURTZ™",
+    "account.next.premieres": "premieres",
+    "account.next.post": "We will contact you then...",
     "end": "end"
 }
