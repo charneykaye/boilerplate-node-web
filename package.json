@@ -33,7 +33,8 @@
   ],
   "subdomain": "om-web",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+	"postinstall": "grunt build"
   },
   "dependencies": {
     "async": "~0.2.9",
