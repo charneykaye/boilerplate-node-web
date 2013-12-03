@@ -58,8 +58,8 @@ module.exports = function(grunt) {
       layouts: {
         files: {
           'public/layouts/core.min.js': [
-            'public/vendor/jquery/jquery-1.10.2.js',
-            'public/vendor/underscore/underscore.js',
+            'public/vendor/jquery/jquery.js',
+            'public/vendor/underscore-amd/underscore.js',
             'public/vendor/backbone/backbone.js',
             'public/vendor/bootstrap/js/affix.js',
             'public/vendor/bootstrap/js/alert.js',
@@ -73,7 +73,8 @@ module.exports = function(grunt) {
             'public/vendor/bootstrap/js/scrollspy.js',
             'public/vendor/bootstrap/js/tab.js',
             'public/vendor/bootstrap/js/transition.js',
-            'public/vendor/moment/moment.js',
+            'public/vendor/momentjs/moment.js',
+            'public/vendor/countdown.js/lib/countdown.js',
             'public/layouts/core.js'
           ],
           'public/layouts/ie-sucks.min.js': [
